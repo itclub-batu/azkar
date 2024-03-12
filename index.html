@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذكار الصباح والمساء</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>أذكار الصباح والمساء</h1>
+    </div>
+
+    <div class="nav">
+        <a href="#" onclick="toggleMorningAzkar()">أذكار الصباح</a>
+        <a href="#" onclick="toggleEveningAzkar()">أذكار المساء</a>
+        <a href="#" onclick="toggleQuran()">القرآن الكريم</a>
+    </div>
+
+    <div class="azkar-container">
+        <p id="morningAzkar" class="hidden"></p>
+        <p id="eveningAzkar" class="hidden"></p>
+        <p id="quranInfo" class="hidden">تنزيل القرآن الكريم:<br>
+            <a href="https://dm.qurancomplex.gov.sa/Download/1441-AI-hafs.zip">تنزيل PDF</a><br>
+            <a href="https://play.google.com/store/apps/details?id=com.simppro.quran.offline&hl=ar&gl=US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3D%D9%85%D8%B5%D8%AD%D9%81&pli=1">تنزيل التطبيق</a>
+        </p>
+    </div>
+    <script src="azkar.js"></script>
+</body>
+</html>
