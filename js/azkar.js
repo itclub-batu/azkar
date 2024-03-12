@@ -1,5 +1,5 @@
 window.onload = () => {
-    fetch('../data/azkar.json')
+    fetch('./data/azkar.json')
         .then(response => response.json())
         .then(data => {
             const AzkarList = document.getElementById('AzkarList');
